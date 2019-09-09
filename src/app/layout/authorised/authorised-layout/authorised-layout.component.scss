@@ -3,7 +3,9 @@
   height: 250vh;
   margin-right: -300px;
 }
-
+#animedashboard.moveDashBoard{
+  margin-left: -300px;
+}
 @media (min-width: 576px) {
   .w3-panel {
     background-color: white;

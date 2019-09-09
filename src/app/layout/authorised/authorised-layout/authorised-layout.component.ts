@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import  {AuthorisedSideNavService} from '../sevices/authorised-side-nav.service'
 @Component({
   selector: 'app-authorised-layout',
   templateUrl: './authorised-layout.component.html',
@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AuthorisedLayoutComponent implements OnInit {
 
-  constructor() { }
+  constructor(public sideNavService: AuthorisedSideNavService) { }
 
   ngOnInit() {
   }
