@@ -1,0 +1,27 @@
+.card {
+  margin-top: 27px;
+  height: 480px;
+  width: 780px;
+}
+.card-header {
+  padding-top: 20px;
+  padding-bottom: 0px;
+  font-size: 25px;
+  color: rgb(121, 118, 118);
+  font-weight: 200;
+  border-bottom: 0.5px solid rgb(161, 159, 159);
+  background-color: white;
+  height: 480px;
+}
+.table-right {
+  float: right;
+}
+.table {
+  background-color: white;
+}
+.table thead {
+  font-size: 21px;
+}
+.table thead tr th td {
+  font-size: 18px !important;
+}

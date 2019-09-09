@@ -3,6 +3,16 @@
   class="navbar-dark bg-dark"
   [ngClass]="{ hidden: sideNavService.hideSideNav }"
 >
+  <div class="navbar-brand">
+    <a class="navbar-item">
+      <img
+        src="assets\images\jaikisan-logo.png"
+        alt="jaikisan-logo"
+        style="height: 45px; width:110px;"
+      />
+    </a>
+  </div>
+
   <ul class="navbar-nav ">
     <li class="nav-item active">
       <a class="nav-link" href="#"
@@ -41,18 +51,18 @@
     </li>
     <li class="nav-item active">
       <a class="nav-link" href="#">
-        <i class="fa fa-cube" style="padding-left: 45px"></i> &nbsp;Products</a
+        <i class="fa fa-cube" style="padding-left: 35px"></i> &nbsp;Products</a
       >
     </li>
     <li class="nav-item active">
       <a class="nav-link" href="#">
-        <i class="fa fa-cube" style="padding-left: 45px"></i> &nbsp;Add single
+        <i class="fa fa-cube" style="padding-left: 35px"></i> &nbsp;Add single
         product</a
       >
     </li>
     <li class="nav-item active">
       <a class="nav-link" href="#">
-        <i class="fa fa-cubes" style="padding-left: 45px"></i>&nbsp;Add multiple
+        <i class="fa fa-cubes" style="padding-left: 35px"></i>&nbsp;Add multiple
         products</a
       >
     </li>
@@ -61,44 +71,45 @@
         <i
           class="fa fa-tag"
           style="
-                padding-left: 45px"
+                padding-left: 35px"
         ></i>
         &nbsp;Brands</a
       >
+      <hr class="hrline"/>
+    </li>
+
+    <li class="nav-item active">
+      <a class="nav-link" href="#">
+        <i class="fa fa-shopping-cart" style="padding: 0%"> </i>
+        &nbsp;&nbsp;Order</a
+      >
+    </li>
+    <hr class="hrline" />
+    <li class="dropdown">
+      <a
+        href="#"
+        class="dropdown-toggle"
+        data-toggle="dropdown"
+        role="button"
+        aria-haspopup="true"
+        aria-expanded="false"
+      >
+
+
+        <i class="fa fa-area-chart" aria-hidden="true"></i>
+        &nbsp;&nbsp;Analytics <span class="caret"></span
+      ></a>
+      <ul class="dropdown-menu">
+        <li><a href="#">Action</a></li>
+      </ul>
     </li>
     <li class="nav-item active">
-        <hr class="hrline">
-          <a class="nav-link" href="#">
-            <i class="fa fa-shopping-cart"
-            style="padding: 0%">
-            </i> &nbsp;&nbsp;Order</a>
-        </li>
-       <hr class="hrline">
-        <li class="dropdown">
-        
-            <a
-              href="#"
-              class="dropdown-toggle"
-              data-toggle="dropdown"
-              role="button"
-              aria-haspopup="true"
-              aria-expanded="false"
-            >
-            <hr class="hrline">
-
-            <i class="fa fa-area-chart" aria-hidden="true"></i>
-              &nbsp;&nbsp;Analytics <span class="caret"></span
-            ></a>
-            <ul class="dropdown-menu">
-              <li><a href="#">Action</a></li>
-
-              </ul>
-              </li>
-              <li class="nav-item active">
-                  <a class="nav-link" href="#"
-                    ><i class="fa fa-line-chart" aria-hidden="true"></i> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Charts</a
-                  >
-                  <hr class="hrline">
-                </li>
-               </ul>
+      <a class="nav-link" href="#"
+        ><i class="fa fa-line-chart" aria-hidden="true"></i>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Charts</a
+      >
+      <hr class="hrline" />
+      <!-- style="border-top: 0.5px solid rgb(119, 119, 119);"> -->
+    </li>
+  </ul>
 </nav>

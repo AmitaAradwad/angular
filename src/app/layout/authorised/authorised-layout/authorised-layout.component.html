@@ -1,11 +1,39 @@
-<app-authorised-top-nav></app-authorised-top-nav>
+<div>
+  <div>
+    <app-authorised-top-nav></app-authorised-top-nav>
+  </div>
 
-<div class="wrapper">
-    <div class="overlay">
-    <app-authorised-side-nav></app-authorised-side-nav>
-    <img src="middleimage.jpg" alt="static dashboard image">
-    
-    <!-- <app-page-content></app-page-content> -->
-    
-</div>
+  <app-authorised-side-nav></app-authorised-side-nav>
+
+  <div class="container-fluid">
+    <div class="row no-gutters">
+      <div class="col-">
+        <h1 class="hcontainer">
+          <div class="w3-panel w3-card">
+            Dashboard
+            <div class="dashboard-foot">
+              <br />
+              Vendor
+              <span
+                style="color: lightgrey; 
+                              font-size: 17px"
+              >
+                > dashboard</span
+              >
+              <span class="dashboard-right">
+                State &nbsp; &nbsp; &nbsp; &nbsp;
+                <i class="fa fa-caret-down "></i>&nbsp; &nbsp; district &nbsp;&nbsp;
+                &nbsp; &nbsp;
+                <i class="fa fa-caret-down"></i>
+              </span>
+            </div>
+          </div>
+          <div>
+            <br /><br />
+            <app-page-content></app-page-content>
+          </div>
+        </h1>
+      </div>
+    </div>
+  </div>
 </div>

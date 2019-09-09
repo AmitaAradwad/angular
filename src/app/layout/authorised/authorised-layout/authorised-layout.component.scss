@@ -1,0 +1,29 @@
+.container-fluid {
+  // background-color: brown;
+  height: 250vh;
+  margin-right: -300px;
+}
+
+@media (min-width: 576px) {
+  .w3-panel {
+    background-color: white;
+    // position: fixed;
+    width: 80vw;
+    height: 120px;
+    font-size: 36px;
+    color: rgb(46, 155, 46);
+    padding: 20px 20px;
+    margin-top: 30px;
+  }
+}
+.dashboard-foot {
+  color: rgb(57, 57, 255) !important;
+  font-size: 20px;
+  padding-top: 0px;
+  margin-top: 5px;
+}
+.dashboard-right {
+  margin-left: 1000px;
+  // float:right;
+  color: rgb(95, 93, 93);
+}
